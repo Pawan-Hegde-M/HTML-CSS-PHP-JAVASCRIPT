@@ -9,6 +9,8 @@ The images folder contains a sample background image and a sample database desig
 
 The logout.php contains the code for logout.
 
-The pages available are login page,password reset page and user registration page and the Add/View Data folder contains Data entry table page and view/edit/delete data with search function page.The database design for data entry table is given in the folder in a .doc file. 
+The pages available are login page,password reset page and user registration page and the Add/View Data folder contains Data entry table page and view/edit/delete data with search function page.The database design for data entry table is given in the folder in a .doc file.
+
+The pages inside Add/View Data are locked using page pagelocking code,kindly remove the page locking code before using it.
 
 
