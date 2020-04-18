@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html>
 <?php
-session_start();
-if($_SESSION['log']=="true") 
-{
-   
-     if((time() -$_SESSION['last_login_timestamp'])>9000)
-   {
-    header('location:logout.php');
-   }
-   else{
-    $_SESSION['last_login_timestamp']=time();
-   }
-}
-else {
-  header('Location:main1.php');
- }
   if($_POST)
 {
   include 'dbconfig.php';
